@@ -8,8 +8,8 @@ list1 += ["b"]
 print("Listede ekleme yapmak mümkündür : ", list1)
 
 tuple0 = ("sifirinci")  # elemandan sonra bir virgül koymazsak parantezleri işlem önceliği gibi algılar
-                        # So, tuple1 deki gibi son elemandan sonra bir virgül bırakılmalı tuple olduğunu anlatmak için
-                        #veya tuple2 deki tanımlama yapılabilir.
+                        # So, tuple1 deki gibi son elemandan sonra bir virgül bırakılmalı(just 1 eleman
+                        # varsa) tuple olduğunu anlatmak için veya tuple2 deki tanımlama yapılabilir.
 tuple1 = ("birinci","b", "c", "d","b")
 tuple2 = tuple("a")
 
