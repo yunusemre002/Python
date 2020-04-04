@@ -1,4 +1,4 @@
-                                  #DJANGO
+## DJANGO
 
 * Masaüstünde klasör yarat : blog <br>
 * Open cmd in there (Klasör adres çubuğuna gel ve cmd yaz orada açar cmd yi)<br>
