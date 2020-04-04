@@ -7,7 +7,7 @@ Open cmd in there (Klasör adres çubuğuna gel ve cmd yaz orada açar cmd yi)<b
 `C:\Users\Demir\Desktop\blog> venv\Scripts\activate`	// aktif ettik sanal zımbırtıyı<br>
 `(venv) C:\Users\Demir\Desktop\blog>` 			//En başta env görüyorsan olmuştur.<br>
 `(venv) C:\Users\Demir\Desktop\blog>deactivate`	// yazarak kapatıyoruz sanal zımbırtıyı. <br>
-`Sanal python ortamını kurmamdaki amaç ana python dosyamdan ayırmam projemi. Bir izalasyon yaratmam.<br>
+Sanal python ortamını kurmamdaki amaç ana python dosyamdan ayırmam projemi. Bir izalasyon yaratmam.<br>
 `C:\Users\Demir\Desktop\blog> venv\Scripts\activate`	// aktif ettik sanal zımbırtıyı<br>
 `(venv) C:\Users\Demir\Desktop\blog>pip install django`<br>
 `(venv) C:\Users\Demir\Desktop\blog> django-admin startproject blog .`		// proje yaratıldı.<br>
@@ -17,7 +17,7 @@ Open cmd in there (Klasör adres çubuğuna gel ve cmd yaz orada açar cmd yi)<b
       ..*04/04/2020  22:25    <DIR>          .idea<br>
       ..*04/04/2020  22:25    <DIR>          blog<br>
       ..*04/04/2020  22:08               645 manage.py<br>
-`(venv) C:\Users\Demir\Desktop\blog>python manage.py runserver`   //	Serverı çalıştırdık<br>
+`(venv) C:\Users\Demir\Desktop\blog>python manage.py runserver`  //	Serverı çalıştırdık<br>
 `…`
 `Django version 3.0.5, using settings 'blog.settings`<br>
 `Starting development server at http://127.0.0.1:8000/`<br>
