@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{# <a href="/post/{{ post.id }}"> {{ post.title }} </a><br> #}
+{#<a href="{% url 'detail' id=post.id %}"> {{ post.title }} </a><br> #}
+{#<a href="{{ post.get_absolute_url }}"> {{ post.title }} </a><br>#}
+
+    {% for post in posts  %}
+        {{ post.id }}<br>
+        <a href="{{ post.get_absolute_url }}"> {{ post.title }} </a><br>
+        {{ post.text }}<br>
+        {{ post.published_date }}<br>
+    {% endfor %}
+
+
+</body>
+</html>
