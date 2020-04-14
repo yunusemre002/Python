@@ -4,7 +4,7 @@ from django.urls import reverse
 class Post(models.Model):
     title = models.CharField(max_length=120, verbose_name="Başlık")      # Max_lengt belirtilmek zorundaymış.
     text = models.TextField(verbose_name="Metin")
-    published_date = models.DateTimeField(verbose_name="Yayınlanma Tarihi")     #verbose_name="Yayınlanma Tarihi"
+    published_date = models.DateTimeField(verbose_name="Yayınlanma Tarihi", auto_now_add=True)     #verbose_name="Yayınlanma Tarihi"
                                                                                 # değişkeniyle orada görünmesini                                                          # istediğimiz ismi söylemiş olduk
 
     def __str__(self):

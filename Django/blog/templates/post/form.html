@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form method="POST">          <!--  Default olarak gettir/Adres çubuğunda gier. Ama form old. için böyle olsun
+                                         istemdik ve POST yaptık.-->
+        {% csrf_token %}          <!--bu bir saldırı tekniği bunu engellemek için django yazmaya zorladı bunu/Sunucuya
+                                      gelen istekleri kendi istekleri doğrultusunda kullanabilir-->
+        <h1>Form</h1>
+        {{form.as_p}}
+        <input type="submit" value="Send">
+    </form>
+</body>
+</html>
