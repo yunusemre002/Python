@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc6b7420-eb62-469f-b4eb-47162fe1346b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blog/post/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/post/migrations/0002_auto_20200414_1428.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/post/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/~$Django.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/~WRL0003.tmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Django.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Django.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/Django.docx" beforeDir="false" afterPath="$PROJECT_DIR$/blog/Django.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/blog/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/post/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/post/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/post/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/post/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/post/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/post/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/~$Django.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/~WRL0003.tmp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +40,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/Python_Dersleri/Sayısal_Analiz_Hw1" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
   <component name="SvnConfiguration">
@@ -95,10 +90,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="469" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586641332556" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1586710669162">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1586898434926">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586710669162" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586898434926" />
     <state x="555" y="58" key="SettingsEditor" timestamp="1586863234551">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

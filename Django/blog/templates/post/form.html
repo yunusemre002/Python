@@ -1,10 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends 'base.html' %}
+{% block body %}
+
     <form method="POST">          <!--  Default olarak gettir/Adres çubuğunda gier. Ama form old. için böyle olsun
                                          istemdik ve POST yaptık.-->
         {% csrf_token %}          <!--bu bir saldırı tekniği bunu engellemek için django yazmaya zorladı bunu/Sunucuya
@@ -13,5 +9,5 @@
         {{form.as_p}}
         <input type="submit" value="Send">
     </form>
-</body>
-</html>
+
+{% endblock %}
